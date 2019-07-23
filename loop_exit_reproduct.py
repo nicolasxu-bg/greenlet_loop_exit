@@ -20,3 +20,5 @@ g1.start()
 
 g1.switch() # will trigger the whole thing
 # without g2(the 2nd greenlet), g1.kill() will trigger an LoopExit error.
+
+# To fix the error, uncomment line 18 and 19
