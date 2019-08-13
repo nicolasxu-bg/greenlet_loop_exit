@@ -1,6 +1,9 @@
 import gevent
 import time
 
+# reading:
+# http://zhangliyong.github.io/posts/2014/09/23/gevent-internals.html
+# https://www.slideshare.net/saghul/understanding-greenlet
 def idler1():
 	while True:
 		print ('idler1 working...')
